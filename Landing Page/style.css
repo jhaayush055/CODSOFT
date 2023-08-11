@@ -1,0 +1,488 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar part start */
+
+/* navitem parent */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: linear-gradient(50deg, #FF5733, #f064bf);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: auto;
+}
+
+.nav-item {
+    flex: 1;
+    width: 80%;
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.nav-item:first-child {
+    flex: 0.27;
+}
+
+.nav-item:nth-child(2) {
+    flex: 0.50;
+}
+
+.nav-item:last-child {
+    flex: 0.18;
+}
+
+/* nav div1 */
+.nav1 a {
+    border-left: 2px solid white;
+    padding: 10px;
+    margin: 2px;
+}
+
+.a_last {
+    border-right: 2px solid white;
+}
+
+/* button part */
+.btn-pill {
+    width: 180px;
+    height: 35px;
+    border: 2px solid white;
+    color: #333;
+    border-radius: 20px;
+    background: transparent;
+}
+
+
+
+
+/* navbar part end */
+
+.navbar1 {
+    display: flex;
+    /* To create equal spacing between logo, menu items, and search */
+    align-items: center;
+    justify-content: space-around;
+    background: #8a8686;
+    color: #fff;
+    padding: 10px;
+    /* Add some padding to the navbar */
+}
+
+.logo {
+    font-size: 30px;
+    color: linear-gradient(50deg, #FF5733, #f064bf);
+    display: flex;
+    /* To vertically center the text and icon */
+    text-align: center;
+    margin-left: 30px;
+}
+
+.logo strong {
+    color: black;
+}
+
+.fish {
+    display: flex;
+    align-items: center;
+}
+
+#navi {
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    height: 50PX;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+    /* Remove underline from anchor tags */
+}
+
+#navi:hover {
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    /* Add a slight border radius on hover */
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: transparent;
+    cursor: pointer;
+}
+
+.search i {
+    font-size: 30px;
+    color: rgb(185, 67, 67);
+    margin-right: 115px;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    width: 25PX;
+    justify-content: space-around;
+}
+
+.NavCont {
+    justify-content: space-around;
+    font-size: medium;
+}
+
+.logo {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+@media screen and (min-device-width: 1000px) and (max-device-width: 1800px) {
+
+    .navbar1 {
+        display: flex;
+        /* To create equal spacing between logo, menu items, and search */
+        align-items: center;
+        justify-content: space-around;
+        background: #e4dada;
+        color: black;
+        padding: 8px;
+    }
+
+    .logo {
+        font-size: 25px;
+        color:linear-gradient(50deg, #FF5733, #f064bf);
+        display: flex;
+        /* To vertically center the text and icon */
+        text-align: center;
+        margin-left: 26px;
+    }
+
+    .logo strong {
+        color: linear-gradient(50deg, #FF5733, #f064bf);
+    }
+
+    .fish {
+        display: flex;
+        align-items: center;
+    }
+
+    #navi {
+        color: black;
+        margin: 5px;
+        padding: 7px;
+        height: 40PX;
+        border-radius: 5px;
+        transition: background-color 0.3s, color 0.3s;
+        text-decoration: none;
+        /* Remove underline from anchor tags */
+    }
+
+    #navi:hover {
+        background-color: orange;
+        color: white;
+        border-radius: 5px;
+        /* Add a slight border radius on hover */
+    }
+
+    .search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: transparent;
+        cursor: pointer;
+    }
+
+    .search i {
+        font-size: 30px;
+        color: rgb(185, 67, 67);
+        margin-right: 115px;
+        align-items: center;
+        justify-content: center;
+        width: 25PX;
+        justify-content: space-around;
+    }
+
+    .NavCont {
+        justify-content: center;
+        font-size: 14px;
+    }
+
+    .logo {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    
+}
+
+
+/* Slider section start */
+img {
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    animation: zoom-out 3s linear infinite;
+}
+
+.text {
+    width: 600px;
+    position: absolute;
+    top: 400px;
+    left: 100px;
+    color: white;
+}
+
+
+
+.text p {
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 5px;
+}
+
+.text span {
+    background:linear-gradient(50deg, #FF5733, #f064bf);
+    height: 180px;
+    width: 3px;
+    position: absolute;
+    left: 0;
+}
+
+.dot {
+    margin-left: 8px;
+}
+
+.btn-pill-btn {
+    width: 180px;
+    height: 35px;
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.btn-pill-btn:hover {
+    background: linear-gradient(50deg, #FF5733, #f064bf);
+}
+
+/* Slider section End */
+
+
+.container {
+    background: linear-gradient(50deg, #FF5733, #f064bf);
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.content {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    width: 25%;
+    /* Adjust the width of each content div */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* Align content at the start (left) */
+}
+
+.contentchild1 {
+    display: flex;
+    width: 99%;
+    align-items: center;
+    color: white;
+}
+
+.contentchild1 a {
+    border: 2px solid white;
+    border-radius: 100%;
+    width: 10%;
+    padding: 10px;
+    /* Increase the padding to create a larger circle */
+    margin-right: 10px;
+    /* Add some space between the icon and headline */
+    text-decoration: none;
+
+}
+
+.contentchild1 h2 {
+    width: 50%;
+    align-items: start;
+}
+
+.contentchild2 {
+    text-align: left;
+    /* Align paragraph text to start (left) */
+}
+
+/* about style start */
+.about {
+    height: 400px;
+    width: 900px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+}
+
+.ab-text {
+    height: 300px;
+    width: 400px;
+    padding: 10px;
+}
+
+.ab-img {
+    height: 350px;
+    width: 300px;
+
+}
+
+.ab-btn-pill {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    background: linear-gradient(50deg, #FF5733, #f064bf);
+    border: 1px solid white;
+}
+.main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    height: 280px;
+   
+
+    border-radius: 10px;
+    /* box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2); */
+}
+.main .box {
+    margin-bottom: 45px;
+    position: absolute;
+    width: 250px;
+    height: 80px;
+    margin: 10px;
+    border: 5px solid transparent;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+    border-image: linear-gradient(50deg, #FF5733, #f064bf);
+    border-image-slice: 1;
+    background-color: white;
+    border-radius: 10px;
+}
+.img { 
+    margin: 18px;
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+.img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    /* box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2); */
+}
+/* About End */
+
+/* Footer Start */
+.footern {
+    background: rgb(232, 223, 223);
+    color: #fff;
+    padding: 20px;
+}
+
+.FContent {
+    display: flex;
+    justify-content: center;
+}
+
+.f-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.f-container .box {
+    position: relative;
+    width: 320px;
+    height: 250px;
+    margin: 20px;
+    border: 5px solid transparent;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+}
+
+.headF {
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+    height: 40px;
+    color: rgb(26, 19, 19);
+    font-size: 18px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 18px;
+}
+
+.headF h5 {
+    margin: 5px 0;
+}
+
+/* Added style for footH */
+.footH {
+    display: flex;
+    align-items: center;
+    background: white;
+}
+
+/* Added style for the hourglass icon */
+.footH i {
+    margin-right: 5px;
+    border-radius: 15px;
+    margin-right: 13px;
+    padding: 3px;
+}
+
+.footH h5 {
+    background-color: #fff
+}
+
+span {
+    background: linear-gradient(50deg, #FF5733, #f064bf);
+    height: 1px;
+    width: 100px;
+    position: absolute;
+    left: 1;
+}
